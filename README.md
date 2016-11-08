@@ -28,6 +28,39 @@ https://github.com/mqtt/mqtt.github.io/wiki/libraries
 
   https://www.npmjs.com/package/paho-mqtt
 
+**Bluemix MQTT Connections**
+
+To setup an _Device_ connection you will need:
+
+- **ClientID:** `d:$org:$type:$id`
+- **MQTT Username:** `use-token-auth`
+- **MQTT Password:** Auth-Token you get when setting up an new device
+- **Connection URL:**
+
+  ```
+  tcp://<org>.messaging.internetofthings.ibmcloud.com:1883
+  ```
+- **Topic:**
+
+  ```
+  iot-2/evt/<event_id>/fmt/<format_string>
+  ```
+
+  - *event_id: [status|input|etc.]*
+  - *format_string: [json|txt|xml|csv]*
+
+To setup an _App_ connection you will need:
+
+- **ClientID:** `a:$org:$AppID`
+- **MQTT Username:** `Api-Key`
+- **MQTT Password:** `Api Token`
+- **Connection URL:** Same as for Devices
+- **Topic:**
+
+  ```
+  iot-2/type/<device-type>/id/<device-id>/evt/<event_type>/fmt/<format_string>
+  ```
+  
 ---
 
 ## OpenWhisk
