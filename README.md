@@ -4,9 +4,13 @@
 
 We will do this tutorial using Golang, but every language that support MQTT and HTTP requests will work.
 
+How to install Golang:
+
+https://golang.org/doc/install
+
 ### MQTT
 
-The following link provides a list with all MQTT libraries:
+The following link provides a list of all MQTT libraries:
 
 https://github.com/mqtt/mqtt.github.io/wiki/libraries
 
@@ -60,7 +64,7 @@ To setup an _App_ connection you will need:
   ```
   iot-2/type/<device-type>/id/<device-id>/evt/<event_type>/fmt/<format_string>
   ```
-  
+
 ---
 
 ## OpenWhisk
