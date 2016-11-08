@@ -2,7 +2,7 @@
 
 ## Prereqs
 
-We will do this tutorial using Golang, but every language that support MQTT and HTTP request will work.
+We will do this tutorial using Golang, but every language that support MQTT and HTTP requests will work.
 
 ### MQTT
 
