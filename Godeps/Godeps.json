@@ -1,0 +1,6 @@
+{
+	"ImportPath": "misterjulz/iot2016",
+	"GoVersion": "go1.7",
+	"GodepVersion": "v74",
+	"Deps": []
+}
