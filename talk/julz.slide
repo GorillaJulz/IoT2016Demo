@@ -1,17 +1,15 @@
-Chaining HTTP Middleware
-March 2016
-Tags: go golang http middleware chaining alice httprouter
+Trigger IBM OpenWhisk Actions using Golang
+November 2016
+Tags: go golang http bluemix subscribe openwhisk watson iot iot2016
 
-Kyle Purdon
-Application Engineer, Bitly
-http://kwp.io/me
+Julian Skupnjak
+Software Engineer, IBM Bluemix
 
 * Overview
 
-- middleware (what is it, and why do I want to chain it?)
-- net/http compatibility
-- [[https://github.com/justinas/alice]]
-- [[https://github.com/julienschmidt/httprouter]]
-- some magic sauce (alice + httprouter)
+- Setup WatsonIoT
+- Setup MQTT connection to WatsonIoT
+- Setup OpenWhisk package
+- Bring things together
 
-Because this is a 10 minute talk I'll be skipping a few basics...
+* IBM Watson IoT
