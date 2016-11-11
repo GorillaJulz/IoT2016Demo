@@ -1,14 +1,17 @@
-* Title of slide or section (must have asterisk)
+Chaining HTTP Middleware
+March 2016
+Tags: go golang http middleware chaining alice httprouter
 
-Some Text
+Kyle Purdon
+Application Engineer, Bitly
+http://kwp.io/me
 
-** Subsection
+* Overview
 
-- bullets
-- more bullets
-- a bullet with
+- middleware (what is it, and why do I want to chain it?)
+- net/http compatibility
+- [[https://github.com/justinas/alice]]
+- [[https://github.com/julienschmidt/httprouter]]
+- some magic sauce (alice + httprouter)
 
-*** Sub-subsection
-
-Some More text
-Further Text, including invocations like:
+Because this is a 10 minute talk I'll be skipping a few basics...
